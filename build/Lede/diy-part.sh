@@ -65,9 +65,9 @@ echo 'src-git nas_luci https://github.com/linkease/nas-packages-luci.git;main' >
 #cp -rf ../OpenWrt-Add/luci-app-dnsproxy ./package/new/luci-app-dnsproxy
 
 # homeproxy
-git clone --single-branch --depth 1 -b dev https://github.com/immortalwrt/homeproxy.git package/new/homeproxy
-rm -rf ./feeds/packages/net/sing-box
-cp -rf ../immortalwrt_pkg/net/sing-box ./feeds/packages/net/sing-box
+#git clone --single-branch --depth 1 -b dev https://github.com/immortalwrt/homeproxy.git package/new/homeproxy
+#rm -rf ./feeds/packages/net/sing-box
+#cp -rf ../immortalwrt_pkg/net/sing-box ./feeds/packages/net/sing-box
 
 # OpenClash
 git clone --single-branch --depth 1 -b master https://github.com/vernesong/OpenClash.git package/new/luci-app-openclash
