@@ -93,11 +93,11 @@ git clone --single-branch --depth 1 -b master https://github.com/vernesong/OpenC
 #chmod +x $core_path/clash*
 
 # socat
-cp -rf ../Lienol_pkg/luci-app-socat ./package/new/luci-app-socat
-pushd package/new
-wget -qO - https://github.com/Lienol/openwrt-package/pull/39.patch | patch -p1
-popd
-sed -i '/socat\.config/d' feeds/packages/net/socat/Makefile
+#cp -rf ../Lienol_pkg/luci-app-socat ./package/new/luci-app-socat
+#pushd package/new
+#wget -qO - https://github.com/Lienol/openwrt-package/pull/39.patch | patch -p1
+#popd
+#sed -i '/socat\.config/d' feeds/packages/net/socat/Makefile
 
 # sirpdboy
 mkdir -p package/sirpdboy
