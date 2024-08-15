@@ -45,8 +45,8 @@ echo 'src-git nas_luci https://github.com/linkease/nas-packages-luci.git;main' >
 #git clone -b master --depth 1 https://github.com/QiuSimons/luci-app-daed package/new/luci-app-daed
 
 # sirpdboy源码
-git clone https://github.com/siropboy/sirpdboy-package package/sirpdboy-package
-make menuconfig
+#git clone https://github.com/siropboy/sirpdboy-package package/sirpdboy-package
+#make menuconfig
 # MAC 地址与 IP 绑定
 cp -rf ../immortalwrt_luci/applications/luci-app-arpbind ./feeds/luci/applications/luci-app-arpbind
 ln -sf ../../../feeds/luci/applications/luci-app-arpbind ./package/feeds/luci/luci-app-arpbind
