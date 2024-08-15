@@ -37,12 +37,12 @@ echo 'src-git nas_luci https://github.com/linkease/nas-packages-luci.git;main' >
 ./scripts/feeds install -a -p nas_luci
 
 # dae ready
-cp -rf ../immortalwrt_pkg/net/dae ./feeds/packages/net/dae
-ln -sf ../../../feeds/packages/net/dae ./package/feeds/packages/dae
-cp -rf ../lucidaednext/daed-next ./package/new/daed-next
-cp -rf ../lucidaednext/luci-app-daed-next ./package/new/luci-app-daed-next
-rm -rf ./feeds/packages/net/daed
-git clone -b master --depth 1 https://github.com/QiuSimons/luci-app-daed package/new/luci-app-daed
+#cp -rf ../immortalwrt_pkg/net/dae ./feeds/packages/net/dae
+#ln -sf ../../../feeds/packages/net/dae ./package/feeds/packages/dae
+#cp -rf ../lucidaednext/daed-next ./package/new/daed-next
+#cp -rf ../lucidaednext/luci-app-daed-next ./package/new/luci-app-daed-next
+#rm -rf ./feeds/packages/net/daed
+#git clone -b master --depth 1 https://github.com/QiuSimons/luci-app-daed package/new/luci-app-daed
 
 # sirpdboy源码
 git clone https://github.com/siropboy/sirpdboy-package package/sirpdboy-package
